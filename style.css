@@ -47,6 +47,14 @@
   width: 250px;
 }
 .navbar {
-  font-weight: 900;
-  
+  font-weight:400;
+}
+.form-control {
+  width: 100%;
+}
+.collapse:not(.show) {
+  margin-left: 17%;
+}
+.navbar-nav {
+  --bs-nav-link-padding-y: 0;
 }
