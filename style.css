@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
 }
-.carousel-item {
+/* .carousel-item {
   height: 20rem;
-}
+} */
 
 .row {
   height: 11.5rem;
@@ -17,7 +17,7 @@
   --bs-btn-hover-color: #fff;
   /* --bs-btn-hover-bg: #198754; */
   --bs-btn-hover-border-color: #4a52eb;
-  --bs-btn-focus-shadow-rgb: 25,135,84;
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #4a52eb;
   --bs-btn-active-border-color: #4a52eb;
@@ -32,7 +32,7 @@
   background-color: var(--bs-btn-hover-border-color);
   border-color: var(--bs-btn-hover-border-color);
 }
-.modal{
+.modal {
   --bs-modal-width: 700px;
 }
 .grid-container {
@@ -43,11 +43,11 @@
 .grid-item {
   padding: 20px;
 }
-.modal-img{
+.modal-img {
   width: 250px;
 }
 .navbar {
-  font-weight:400;
+  font-weight: 400;
 }
 .form-control {
   width: 100%;
@@ -58,3 +58,10 @@
 .navbar-nav {
   --bs-nav-link-padding-y: 0;
 }
+
+/* @media (min-width: 768px) {
+  .carousel-item {
+    height: 200px; /* Establece la altura deseada para la clase "md" */
+  }
+}
+ */
