@@ -57,11 +57,12 @@
 }
 .navbar-nav {
   --bs-nav-link-padding-y: 0;
+  --bs-nav-link-color: #ffffff;
+}
+.text-light {
+  color: #fff;
 }
 
 /* @media (min-width: 768px) {
   .carousel-item {
     height: 200px; /* Establece la altura deseada para la clase "md" */
-  }
-}
- */
